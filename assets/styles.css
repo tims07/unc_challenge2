@@ -38,3 +38,25 @@ header nav ul {
       margin-right: 15px;
       font-size: 20px;
   }
+
+  /* Hero Image */
+
+
+  /* Main container */
+  .flex-section {
+      display: flex;
+  }
+
+  .section-header {
+     padding: 20px;
+     text-align: center;
+     width: 25%;
+
+  }
+
+  /* About Me */
+
+  .about-me {
+      border: 1px solid black;
+  }
+
