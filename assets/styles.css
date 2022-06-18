@@ -43,8 +43,13 @@ header nav ul {
 
 
   /* Main container */
+  
+
   .flex-section {
+      border: 1px solid black;
       display: flex;
+  
+      
   }
 
   .section-header {
@@ -58,5 +63,50 @@ header nav ul {
 
   .about-me {
       border: 1px solid black;
+      margin-left: 60px;
+     
   }
 
+  .about-body {
+    border: 1px solid black;
+    margin-left: 60px;
+    padding-left: 10px;
+  }
+
+  /* Work Images */
+    section {
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    div img {
+        border: 5px solid black;
+        padding: 5px;
+
+    }
+
+    div section ul {
+        list-style: none;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+
+    footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 10px;
+    }
+
+    footer ul li {
+        padding-right: 30px;
+    }
